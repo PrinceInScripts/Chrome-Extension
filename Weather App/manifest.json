@@ -1,18 +1,17 @@
 {
-    "name":"Weather App",
-    "description":"A Weather App Extension Where Live Location Weather Show",
-    "version":"1.0",
-    "manifest_version":3,
-    "action":{
-        "default_popup":"popup.html",
-        "default_icons":"./assist/icon128.png"
+    "name": "Weather App",
+    "description": "A Weather App Extension Where Live Location Weather Show",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "./assist/icon128.png"
     },
-    "icons":{
-        "16":"./assist/icon16.png",
-        "32":"./assist/icon32.png",
-        "48":"./assist/icon48.png",
-        "128":"./assist/icon128.png"
+    "icons": {
+      "16": "./assist/icon16.png",
+      "32": "./assist/icon32.png",
+      "48": "./assist/icon48.png",
+      "128": "./assist/icon128.png"
     },
-    "permissions":["activeTab"]
-    
-}
+    "permissions": ["activeTab", "geolocation"]
+  }
